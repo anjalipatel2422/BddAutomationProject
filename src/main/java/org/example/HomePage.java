@@ -10,7 +10,7 @@ public class HomePage extends Util{
     }
 
     public void clickOnRegisterButton(){//create method
-        waituntilElementisclickble(_registerButton,20);//apply explicit wait
+        waituntilElementisclickble(_registerButton,40);//apply explicit wait
         clickonElement(_registerButton);//click on register button
 
     }}

@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 14376461100,
+  "duration": 10533176600,
   "status": "passed"
 });
 formatter.scenario({
@@ -48,32 +48,32 @@ formatter.match({
   "location": "MyStepDefs.user_is_on_homepage()"
 });
 formatter.result({
-  "duration": 2645184200,
+  "duration": 1199674100,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepDefs.user_clicks_on_register_button()"
 });
 formatter.result({
-  "duration": 2832153700,
+  "duration": 3538578400,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepDefs.user_enters_all_required_registration_deatils()"
 });
 formatter.result({
-  "duration": 6838990800,
+  "duration": 271401066299,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepDefs.user_should_able_to_register_successfully()"
 });
 formatter.result({
-  "duration": 184928600,
+  "duration": 644656900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 430613200,
+  "duration": 90331800,
   "status": "passed"
 });
 });

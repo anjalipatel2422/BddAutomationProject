@@ -31,9 +31,7 @@ public class BrowserManager extends Util{
             driver = new FirefoxDriver();
         } else if (browser.equalsIgnoreCase("ie")) {
             //setting up ie path
-            System.setProperty("webdriver.IEDriverServer.driver", "src\\test\\resources\\BrowserDrivers\\IEDriverServer.exe");
-            DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
-            capabilities.setCapability("ignoreZoomSetting", true);
+            System.setProperty("webdriver.ie.driver", "src\\test\\resources\\BrowserDrivers\\IEDriverServer.exe");
             //creating ie object to open ie browser
             driver = new InternetExplorerDriver();
         }
